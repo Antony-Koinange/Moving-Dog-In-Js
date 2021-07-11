@@ -3,7 +3,7 @@ let playerState = 'idle'
 //connects to the html player
 const dropdown = document.getElementById('animation');
 dropdown.addEventListener('change',function(t) {
-    //target tefer to an element that was clicked
+    //target transfer to an element that was clicked
     playerState = t.target.value;
 })
 const canvas = document.getElementById('canvas1');
@@ -23,7 +23,7 @@ const spriteHeight =523;
 let gameFrame= 0;
 //helps reduce the speed of the frames in the sprite sheets
 const staggerFrame =5;
-//main datato hold all the animations
+//main part hold all the animations
 const spriteAnimation = [];
 //creating simple canvas maps
 const animationState =[
